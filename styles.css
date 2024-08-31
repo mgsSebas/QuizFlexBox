@@ -1,0 +1,48 @@
+#Container {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(103, 77, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#BoxA{
+    height: 190px;
+    width: 99%;
+    background-color:#ff9d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Medio{
+    height: 400px;
+    width:75%;
+    background-color:rgb(59, 39, 20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3px
+}
+
+.Boxes{
+    height: 48%;
+    width: 32.5%;
+    background-color: #dfbd86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#BoxH{
+    height: 400px;
+    width: 25%;
+    background-color:#9c9385;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
